@@ -48,9 +48,6 @@ progenitor::generate_api!(
     crates = {
         "oxnet" = "0.1.0",
     },
-    replace = {
-        PortId = common::ports::PortId,
-    }
 );
 
 impl Client {
